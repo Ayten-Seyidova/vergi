@@ -143,46 +143,7 @@ $('.brand-carousel').owlCarousel({
   }
 });
 
-// back to top
 
-// let requestAnimationFrame = window.requestAnimationFrame || window.mozRequestAnimationFrame || window.webkitRequestAnimationFrame || window.msRequestAnimationFrame;
-
-// document.addEventListener('DOMContentLoaded', function () {
-//   const goTopButton = document.querySelector('[data-action="gotop"]');
-//   const windowViewPortHeight = window.innerHeight; // browser viewport height
-//   let isRequestingAnimationFrame = false;
-
-//   if (!goTopButton) {
-//     return;
-//   }
-
-//   goTopButton.addEventListener('click', function () {
-//     window.scrollTo({
-//       top: 0,
-//       behavior: 'smooth'
-//     });
-//   });
-
-//   window.addEventListener('scroll', function () {
-//     if (!isRequestingAnimationFrame) {
-//       requestAnimationFrame(filterGoTopButtonVisibility);
-//       isRequestingAnimationFrame = true;
-//     }
-//   });
-
-//   function filterGoTopButtonVisibility(timestamp) {
-//     let windowPageYOffset = window.pageYOffset || document.documentElement.scrollTop;
-//     if (windowPageYOffset > windowViewPortHeight) {
-//       goTopButton.classList.add('show');
-//       isRequestingAnimationFrame = false;
-//     } else {
-//       goTopButton.classList.remove('show');
-//       requestAnimationFrame(filterGoTopButtonVisibility);
-//     }
-//   }
-// });
-
-// back to top end
 
 // aos
 AOS.init({
@@ -207,16 +168,9 @@ $('[data-fancybox="gallery"]').fancybox({
 });
 
 
-//   back to top
-
-//Scroll back to top
-
-
 
 // accordion
-
-
-// FAQ - Akkordeon
+// FAQ 
 (function ($) {
   var allPanels = $('.faq-content').hide();
 
@@ -224,7 +178,6 @@ $('[data-fancybox="gallery"]').fancybox({
     $this = $(this);
     $target = $this.next();
     $allheadlines = $(".faq-btn");
-    // $headline = $this.find("h3");
 
     if (!$target.hasClass('open')) {
       allPanels.slideUp().removeClass('open');
