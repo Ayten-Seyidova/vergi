@@ -1,0 +1,101 @@
+.vb-information {
+    margin: 20px 0 80px 0;
+}
+
+.accordion-vb {
+    padding: 0;
+    margin: 0;
+    transition: none;
+    transform: none;
+}
+
+.accordion-item {
+    margin: 30px 0;
+    border: 1px solid red;
+    padding: 10px;
+}
+
+
+.accordion-body {
+    background: var(--mainFontColor);
+}
+
+.accordion-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 1.25rem;
+    color: #212529;
+    text-align: left;
+    background-color: transparent;
+    border: 0;
+    border-radius: 0;
+    overflow-anchor: none;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out, border-radius .15s ease;
+    font-size: 18px;
+    color: rgb(16, 132, 204);
+}
+
+.accordion-button i {
+    padding: 0 20px;
+    font-size: 30px;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: transparent;
+
+}
+
+.accordion-button:not(.collapsed):focus-visible {
+    border: none;
+}
+
+.accordion-flush .accordion-item .accordion-button:focus {
+    border: none;
+}
+
+.accordion-item {
+    background-color: var(--accordionBg);
+    border: none;
+}
+
+.accordion-button:focus {
+    z-index: 3;
+    border-color: #fff;
+    outline: 0;
+    box-shadow: none;
+    color: var(--headerBackgroundColor);
+}
+
+.accordion-button::after {
+    flex-shrink: 0;
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-left: auto;
+    content: "";
+    background-image: url('/assets/image/plus.svg');
+
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url('/assets/image/plus.svg');
+    transform: rotate(45deg);
+}
+
+.accordion-icon {
+    font-size: 30px;
+
+}
+
+.accordion {
+    transition: none !important;
+    transform: none !important;
+}
+
+.accordion-collapse {
+    transition: none;
+    transform: none;
+    font-size: 17px;
+    line-height: 1.4;
+}

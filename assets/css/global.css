@@ -1,0 +1,30 @@
+@import url('./reset.css');
+@import url('./font.css');
+@import url('./variable.css');
+/* Layout */
+@import url('./layout/header.css');
+@import url('./layout/footer.css');
+/* Pages */
+@import url('./pages/home.css');
+@import url('./pages/management.css');
+@import url('./pages/dinamic.css');
+@import url('./pages/electronic_services.css');
+@import url('./pages/instructions.css');
+@import url('./pages/standarts.css');
+@import url('./pages/vb-information.css');
+@import url('./pages/declaration.css');
+@import url('./pages/application_forms.css');
+@import url('./pages/kqdq.css');
+@import url('./pages/mail.css');
+@import url('./pages/online_apply.css');
+@import url('./pages/faq.css');
+@import url('./pages/contact.css');
+@import url('./pages/reception_days.css');
+@import url('./pages/news.css');
+@import url('./pages/single_news.css');
+@import url('./pages/bvm.css');
+@import url('./pages/reference.css');
+@import url('./pages/amb.css');
+@import url('./pages/media.css');
+@import url('./pages/interviews.css');
+@import url('./pages/photos.css');

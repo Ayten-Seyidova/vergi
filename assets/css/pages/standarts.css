@@ -1,0 +1,75 @@
+.standarts {
+    margin: 40px 0;
+}
+
+.electronic_services_title {
+    margin: 20px 0;
+    color: var(--blackColor);
+}
+
+.standarts-card {
+    width: 85%;
+    height: 200px;
+    position: relative;
+    border-top-left-radius: 48px;
+    border-bottom-right-radius: 48px;
+    background-color: var(--headerBackgroundColor);
+    color: #fff;
+    transition: all ease-in-out 0.3s;
+    margin-bottom: 50px;
+}
+
+.standarts-card:hover {
+    background: rgba(105, 172, 241, 1);
+    color: var(--blackColor);
+    transform: scale(1.04);
+    transition: all ease-in-out .6s;
+}
+
+.standarts-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+.standarts-link {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 576px) and (min-width:320px) {
+    .standarts {
+        margin: 10px 0 30px 0;
+    }
+
+    .standarts-card {
+        margin-bottom: 20px;
+        margin: 10px auto;
+    }
+
+    .electronic_services_title {
+        margin: 0px;
+    }
+
+    .standarts-content {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+}
+
+
+@media screen and (max-width: 992px) and (min-width:768px) {
+
+    .standarts-content {
+        font-size: 17px;
+        line-height: 1.5;
+    }
+}

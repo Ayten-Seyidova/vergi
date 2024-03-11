@@ -1,0 +1,136 @@
+/* .our-expertise h3 {
+    font-size: 1.5em;
+
+    &.faq {
+        margin: 1em 0;
+        text-align: left;
+
+        @include media(max-width $small-screen) {
+            margin-left: 20px;
+        }
+    }
+} */
+
+.faqs{
+    margin: 60px 0;
+}
+.our-expertise h3 {
+	 font-size: 1.5em;
+}
+ .our-expertise h3.faq {
+	 margin: 1em 0;
+	 text-align: left;
+}
+ 
+
+.faq-container {
+    max-width: 1280px;
+    padding-bottom: 1.5em;
+    margin: 0 auto;
+    width: 90%;
+}
+
+p.mobile-faq-menu {
+    margin: auto;
+    padding: 20px;
+    border-bottom: solid #eeeeee 1px;
+}
+
+.expertise-faq {
+    display: inline-block;
+}
+
+/* .contact-faq {
+    height: 1000px;
+    width: 375px;
+    float: right;
+    display: inline-block;
+
+    @include media(max-width $large-screen) {
+        float: none;
+        display: block;
+    }
+} */
+.contact-faq {
+    height: 1000px;
+    width: 375px;
+    float: right;
+    display: inline-block;
+}
+
+
+
+p.faq-accordion {
+    background-color: #fff;
+    color: #444;
+    cursor: pointer;
+    padding: 18px 18px 0px;
+    width: 100%;
+    text-align: left;
+    outline: none;
+    transition: 0.4s;
+    margin-bottom: 0px;
+    border-top: solid #f4f4f4 1px;
+    font-weight: 700;
+}
+
+p.faq-accordion.active,
+p.accordion:hover {
+    background-color: #fff;
+}
+
+p.faq-accordion:after {
+    content: '\2795';
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+
+p.mobile-faq-menu:after {
+    content: '\2795';
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+
+
+p.faq-accordion.active:after {
+    content: "\2796";
+}
+
+p.mobile-faq-menu.active:after {
+    content: "\2796";
+}
+
+div.faq-panel {
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.6s ease-in-out;
+    opacity: 0;
+    text-align: left;
+    padding-left: 18px;
+    max-width: 100%;
+}
+
+div.faq-panel.show {
+    opacity: 1;
+    max-height: 750px;
+}
+
+div.mobile-faq-panel {
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.6s ease-in-out;
+    opacity: 0;
+    text-align: left;
+    padding-left: 18px;
+}
+
+div.mobile-faq-panel.show {
+    opacity: 1;
+    max-height: 750px;
+}

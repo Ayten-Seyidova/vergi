@@ -1,0 +1,4 @@
+.applications table thead {
+    background-color: rgba(53, 146, 205, 1);
+    background-color: var(--declaration);
+}

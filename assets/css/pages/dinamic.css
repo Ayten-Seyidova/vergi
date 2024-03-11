@@ -1,0 +1,50 @@
+.dinamic {
+    height: auto;
+    margin: 20px 0;
+}
+
+.dinamic_title {
+    font-size: 26px;
+    font-weight: 600;
+    text-align: center;
+    padding: 15px 0 0 0;
+    color: var(--fontColor5);
+}
+
+.dinamic_content {
+    text-align: justify;
+    padding: 20px 0 80px 0;
+    font-size: 16px;
+    line-height: 1.4;
+    color: var(--fontColor3);
+}
+
+@media (min-width: 320px) and (max-width: 480.98px) {
+    .dinamic {
+        margin: 0;
+    }
+
+    .dinamic_content {
+        padding: 8px 0 60px 0;
+        font-size: 13px;
+    }
+
+    .dinamic_title {
+        font-size: 1.3rem;
+    }
+}
+
+@media (min-width: 480.98px) and (max-width: 768px) {
+    .dinamic {
+        margin: 0;
+    }
+
+    .dinamic_content {
+        padding: 8px 0 60px 0;
+        font-size: 15px;
+    }
+
+    .dinamic_title {
+        font-size: 1.4rem;
+    }
+}

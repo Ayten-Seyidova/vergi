@@ -1,0 +1,126 @@
+.photo_video {
+    margin: 50px 0;
+}
+
+.collapse-auto {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-tabs {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.btn-collapse {
+    color: var(--fontColor4);
+    margin: 0 20px;
+}
+
+.btn-collapse:hover {
+    border: 1px solid var(--declaration);
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .btn-collapse.active {
+    color: var(--bs-nav-tabs-link-active-color);
+    background-color: var(--bs-nav-tabs-link-active-bg);
+    border-color: var(--bs-nav-tabs-link-active-border-color);
+    border: none;
+}
+
+
+.nav-tabs .nav-link {
+    border: none;
+}
+
+.nav-tabs .nav-link:focus,
+.nav-tabs .nav-link:hover {
+    border: none;
+}
+
+.photo_video .card-body {
+    border: none;
+    height: 60px;
+}
+
+.photos-img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.photos-text {
+    font-size: 14px;
+    color: #151515;
+    line-height: 1.2;
+}
+
+/* video */
+.video-gallery {
+    margin: 50px 0;
+    min-height: 400px;
+}
+
+.iframe-video {
+    margin-bottom: 30px;
+}
+
+.iframe-video iframe {
+    width: 100%;
+    height: 260px;
+}
+
+
+@media screen and (max-width: 480px) and (min-width: 320px) {
+    .video-gallery {
+        margin: 30px 0;
+    }
+
+    .iframe-video {
+        text-align: center;
+
+        margin-bottom: 35px;
+
+    }
+
+}
+
+@media screen and (max-width: 576px) and (min-width: 480px) {
+    .iframe-video {
+        text-align: center;
+        margin-bottom: 45px;
+    }
+
+    .iframe-video iframe {
+        height: 230px;
+    }
+}
+
+@media screen and (max-width: 778px) and (min-width: 576px) {
+    .iframe-video {
+        text-align: center;
+        margin-bottom: 45px;
+    }
+
+    .iframe-video iframe {
+        width: 100%;
+        height: 250px;
+    }
+}
+
+
+@media screen and (max-width: 768px) and (min-width:320px) {
+
+    .photo_video .card-body {
+        height: auto;
+    }
+
+
+}

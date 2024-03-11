@@ -1,0 +1,177 @@
+.content-page {
+    padding-bottom: 120px;
+}
+
+.management-name {
+    font-size: 24px;
+    margin-bottom: 14px;
+    font-weight: bold;
+}
+
+.management-information {
+    text-align: left;
+}
+
+.management-mission {
+    margin: 10px 0;
+}
+
+.management-duty {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.management-name {
+    margin: 20px 0;
+    font-weight: 400;
+}
+
+.management-content {
+    margin: 10px 0;
+    color: var(--fontColor3);
+    line-height: 1.6;
+}
+
+.management-more {
+    text-align: left;
+    font-size: 18px;
+    color: var(--fontColor4);
+    display: block;
+}
+
+@media (min-width: 1600px) {
+    .container-custom {
+        max-width: 1250px;
+    }
+}
+
+.list-breadcrump-taxes {
+    margin: 25px 0;
+    text-align: center;
+    font-weight: 500;
+    font-size: 28px;
+}
+
+@media (min-width: 1600px) {
+    .container-custom {
+        max-width: 1250px;
+    }
+}
+
+.guiding-boxes {
+    margin: 25px 0;
+    box-shadow: 4px 4px 4px 4px rgba(240, 234, 234, 0.5);
+    align-items: center;
+    height: 300px;
+}
+
+.guiding-boxes .img-box {
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 2px;
+    -webkit-box-shadow: 0px 0px 5px 2px #dfdfdf;
+    -moz-box-shadow: 0px 0px 5px 2px #dfdfdf;
+    box-shadow: 0px 0px 5px 2px #dfdfdf;
+}
+
+.guiding-boxes .img-box>img {
+    border-radius: 2px;
+    height: 226px;
+    object-fit: cover;
+}
+
+.management-article {
+    padding: 0 20px;
+    height: 260px;
+}
+
+@media screen and (max-width: 480px) and (min-width:320px) {
+    .guiding-boxes {
+        height: auto;
+    }
+
+    .management-article {
+        padding: 10px 20px;
+        height: auto;
+    }
+
+    .management-duty {
+        font-size: 18px;
+        line-height: 1.4;
+    }
+
+    .management-name {
+        font-size: 17px;
+        margin: 10px 0;
+    }
+
+    .management-content {
+        font-size: 14px;
+        text-align: justify;
+    }
+}
+
+@media screen and (max-width: 576px) and (min-width:480.98px) {
+    .guiding-boxes {
+        height: auto;
+    }
+
+    .management-article {
+        padding: 10px 20px;
+        height: auto;
+    }
+
+    .management-duty {
+        font-size: 20px;
+    }
+
+    .management-name {
+        font-size: 17px;
+        margin: 10px 0 5px 0;
+    }
+
+    .management-content {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width:576.98px) {
+    .guiding-boxes {
+        height: auto;
+    }
+
+    .management-article {
+        padding: 10px 20px;
+        height: auto;
+    }
+
+    .management-duty {
+        font-size: 20px;
+    }
+
+    .management-name {
+        font-size: 17px;
+    }
+
+    .management-content {
+        font-size: 15px;
+        margin: 10px 0;
+    }
+}
+
+@media screen and (max-width: 992px) and (min-width:768.98px) {
+    .guiding-boxes {
+        height: auto;
+    }
+
+    .management-article {
+        padding: 10px 20px;
+        height: auto;
+    }
+
+    .guiding-boxes .img-box>img {
+        border-radius: 2px;
+        height: 165px;
+        object-fit: cover;
+    }
+}

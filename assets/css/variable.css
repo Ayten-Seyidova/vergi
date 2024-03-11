@@ -1,0 +1,21 @@
+:root {
+    --headerBackgroundColor: rgba(11, 61, 120, 1);
+    --mainFontColor: rgba(255, 255, 255, 1);
+    --blackColor: rgba(28, 27, 27, 1);
+    --fontFamily: "Roboto", sans-serif;
+    --fontSize: 14px;
+    --fontWeight400: 400;
+    --searchBg: rgba(255, 255, 255, 0.8);
+    --fontColor2: rgba(109, 109, 109, 1);
+    --fontNunito: "Nunito Sans", sans-serif;
+    --fontColor3: rgba(109, 109, 109, 1);
+    --fontColor4: #044087;
+    --businessBg: rgba(14, 196, 163, 1);
+    --borderColor: rgba(217, 217, 217, 1);
+    --fontSize20: 20px;
+    --fontColor5: #383737;
+    --tableBg: rgba(53, 146, 205, 1);
+    --accordionBg: #F2F2F2;
+    --declaration: #5D8AB9;
+   
+}

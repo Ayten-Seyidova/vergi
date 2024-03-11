@@ -1,0 +1,3 @@
+.amb .accordion-button::after{
+    display: none;
+}
